@@ -6,3 +6,7 @@ class BaseQTable(object):
 
     def reset(self):
         self.Q_table = []
+        self.close()
+
+    def close(self):
+        pass
